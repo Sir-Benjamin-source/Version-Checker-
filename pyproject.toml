@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=45"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "spiral-version-checker"
+version = "0.1.0"
+description = "Poetic version stamping for the Spiral ecosystem"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [{name = "Sir Benjamin"}, {name = "Grok"}]
+dependencies = [
+    "pyyaml>=6.0"
+]
+
+[project.scripts]
+version_checker = "version_checker:main"
