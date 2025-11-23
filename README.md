@@ -6,6 +6,18 @@ Version Checker+ is a lightweight Python tool that reimagines software version I
 The tool draws from empirical principles like Francis Bacon's inductive method and emphasizes iterative refinement through structured notes. For full details, check the [Zenodo deposit](https://zenodo.org/records/16740228) (DOI: 10.5281/zenodo.16740228), which includes initial RTF documentation files: `Version Checker+ README.rtf` (2.9 kB) and `Version Checker+.rtf` (5.6 kB), uploaded on August 4, 2025.
 <argument name="citation_id">0</argument>
 
+# Version-Checker- — Spiral-Native Stamps
+
+Stamps to link and manage user-created directories. Poetic, traceable, zero-fuss.
+
+## Quickstart
+```bash
+# Install from GitHub
+pip install git+https://github.com/Sir-Benjamin-source/Version-Checker-.git
+
+# Stamp a version
+version_checker 1.0 notes.json "First spiral turn" --style poetic
+
 
 ### Authors
 - **Sir Benjamin** (@SirBenjamino0) - Primary Creator and Conceptual Architect
