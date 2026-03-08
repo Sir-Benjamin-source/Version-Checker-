@@ -91,6 +91,7 @@ From an .srec recap of patch-note refinement:
   }
 }
 ```
+Full working sample: [process_tree_example.json](./process_tree_example.json)
 
 By following citations and tagged keywords across nodes, you can trace a "map of semantic logic"—a navigable path showing how a process evolved.
 
