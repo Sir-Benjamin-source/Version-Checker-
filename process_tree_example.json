@@ -5,27 +5,50 @@
       "id": "step1",
       "label": "Initial patch note ingestion",
       "type": "decompose",
-      "metrics": {"phrases_extracted": 12, "initial_density": 0.58},
+      "metrics": {
+        "phrases_extracted": 12,
+        "initial_density": 0.58
+      },
       "citation": "notes/v1.1-patch-discussion.srec",
-      "tagged_keywords": ["refactoring", "test-driven", "provenance"],
-      "children": ["step2"]
+      "tagged_keywords": [
+        "refactoring",
+        "test-driven",
+        "provenance"
+      ],
+      "children": [
+        "step2"
+      ]
     },
     {
       "id": "step2",
       "label": "Keyword tagging & citation qualification",
       "type": "annotate",
-      "metrics": {"tags_applied": 5, "citations_added": 3},
+      "metrics": {
+        "tags_applied": 5,
+        "citations_added": 3
+      },
       "citation": "DOI:10.5281/zenodo.16585562 - Spiral Theory (generality constraints)",
-      "tagged_keywords": ["provenance", "citation-chain"],
-      "children": ["step3"]
+      "tagged_keywords": [
+        "provenance",
+        "citation-chain"
+      ],
+      "children": [
+        "step3"
+      ]
     },
     {
       "id": "step3",
       "label": "Semantic map synthesis",
       "type": "synthesis",
-      "metrics": {"final_density": 0.87, "convergence_iterations": 3},
+      "metrics": {
+        "final_density": 0.87,
+        "convergence_iterations": 3
+      },
       "citation": "Version Checker+ v1.1 (self-reference)",
-      "tagged_keywords": ["semantic-map", "traceable-evolution"],
+      "tagged_keywords": [
+        "semantic-map",
+        "traceable-evolution"
+      ],
       "reflection": "Chained citations from patch notes → Spiral Theory → self-reference create navigable logic map"
     }
   ],
