@@ -1,3 +1,16 @@
+# [ENGLISH EXPLANATION BLOCK - v1.1]
+# Purpose: Generates a traceable stamp for versions, optionally with quantified metrics and qualified citations.
+# Key Concept: Provenance as self-reference – every change carries its own history and evidence.
+# Citation: Zenodo DOI 10.5281/zenodo.18916090 (this tool v1.1)
+# Expected Behavior: Returns a stamp string (e.g., "v1.1#CS-RefB") and logs to linked directory.
+# Dependencies: Standard library only (hashlib optional for hash suffix)
+# Parameters:
+#   - version (str): Base version number
+#   - dir_path (str): Path to notes directory
+#   - quantified_metrics (dict, optional): e.g. {'pruning_rate': 0.91}
+#   - citation_doi (str, optional): Qualified source DOI
+#   - tree_read (bool): If true, validates/expects process tree in directory
+
 #!/usr/bin/env python3
 import argparse
 import hashlib
