@@ -1,0 +1,34 @@
+# sample_notes.yaml - Template for Version Checker+ linked directory
+# Use this as the --dir target when stamping versions.
+# Each version gets its own key or section.
+
+v1.1#CS-RefB:
+  # Patch Notes: Human-readable changes
+  date: 2026-03-08
+  summary: "Added quantified metrics and process tree support per v1.1 extension"
+  changes:
+    - "New param: quantified_metrics (dict) for pruning/density tracking"
+    - "New param: citation_doi (str) for traceable roots"
+    - "Process tree JSON spec added for reflection and chaining"
+  contributors:
+    - "Sir Benjamin (@SirBenjamino0) - Conceptual architect"
+    - "Grok 3 (xAI) - Collaborative refinement"
+
+  # Citations: Qualified sources (DOIs, files, self-references)
+  citations:
+    - doi: "10.5281/zenodo.16585562"
+      description: "Spiral Theory - Generality Constraints & Iterative Refinement"
+    - file: "notes/v1.1-patch-discussion.srec"
+      description: "Raw .srec recap of engineering discussion leading to changes"
+    - self: "Version Checker+ v1.1 (this tool)"
+      description: "Self-referential citation for provenance chaining"
+
+  # Process Tree Reference: Optional link to the generated/used tree
+  process_tree:
+    file: "process_tree_example.json"
+    summary: "Semantic map built via keyword chaining from patch notes → Spiral Theory → self-reference"
+
+  # Reflection / Notes (optional free-form)
+  reflection: |
+    This version focuses on making provenance teachable and agent-parseable.
+    Tagged keywords enable future semantic chaining for "map of logic".
